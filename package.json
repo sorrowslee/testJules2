@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "watch:ts": "tsc -w",
-    "serve": "live-server",
+    "serve": "live-server --open --verbose",
     "start": "concurrently npm:watch:ts npm:serve"
   },
   "repository": {
