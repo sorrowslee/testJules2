@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "concurrently \\"tsc -w\\" \\"live-server\\""
+    "watch:ts": "tsc -w",
+    "serve": "live-server",
+    "start": "concurrently npm:watch:ts npm:serve"
   },
   "repository": {
     "type": "git",
