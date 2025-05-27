@@ -1,4 +1,3 @@
-import * as PIXI from 'pixi.js';
 import { Bird } from './Bird';
 import { Background } from './Background';
 

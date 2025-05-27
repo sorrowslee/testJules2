@@ -1,5 +1,3 @@
-import * as PIXI from 'pixi.js';
-
 export class Background extends PIXI.TilingSprite {
   private scrollSpeed: number;
 

@@ -1,5 +1,3 @@
-import * as PIXI from 'pixi.js';
-
 export class Bird extends PIXI.Sprite {
   public vy: number;
   private gravity: number;
