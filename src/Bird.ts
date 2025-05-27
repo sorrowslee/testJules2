@@ -12,7 +12,7 @@ export class Bird extends PIXI.Sprite {
     placeholder.endFill();
 
     // Generate a texture from the graphics object
-    const texture = app.renderer.generateTexture(placeholder);
+    const texture = app.renderer.generateTexture(placeholder, PIXI.SCALE_MODES.LINEAR, app.renderer.resolution);
 
     super(texture);
 
